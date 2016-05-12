@@ -1,0 +1,15 @@
+h1, h2, h3 {
+	color: #ff00ff;
+	font-size: 20px;
+}
+
+li{
+	font-size: 14px;
+	background-color: pink;
+}
+p{
+	color: blue;
+}
+body{
+	color: black;
+}
