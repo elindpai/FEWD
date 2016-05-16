@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+*{
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	margin: 15px;
+	box-sizing: border-box;
+}
+
+h1{
+	display: inline-block;
+	margin-left: 0px;
+	margin-bottom: 10px;
+}
+
+h1>a{
+	color: #F9D483;
+	font-size: 50px;
+	text-decoration: none;
+}
+
+h2{
+	color: #000000;
+	font-size: 30px;
+	display: inline;
+}
+
+header>nav{
+	display: table;
+	width: 100%;
+}
+header>nav>a{
+	color: white;
+	font-size: 25px;
+	margin: 10px 10px 10px 0px;
+	text-decoration: none;
+	background: #D2D2D2;
+	margin: 0px;
+	display: table-cell;
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+	border-right: solid 2px white;
+}
+
+h3{
+	color: #D2D2D2;
+	font-size: 35px;
+	margin-bottom: -5px;
+}
+
+h2>a{
+	color: #000000;
+	font-size: 35px;
+	text-decoration: none;
+	margin-left: 0px;
+	display: inline-block;
+}
+
+article>img{
+	margin-top: -5px;
+	margin-bottom: -5px;
+}
+
+p{
+	font-size: 18px;
+	line-height: 25px;
+}
+
+article>p::first-letter {
+    color: #D2D2D2;
+    font-size: 100px;
+    line-height: 70px;
+    float: left;
+    padding: 5px 10px 7px 1px;
+}
+
+h4>a{
+	color: #F9D483;
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	padding-left: 375px;	
+}
+
+article *{
+	display: inline-block;
+	width: 100%;
+}
+
+article {
+	border-bottom: 1px solid #D2D2D2;
+	margin-bottom: 50px;
+	width: 60%;
+}
+
+
+footer{
+	clear: both;
+}
+footer>nav>a{
+	color: #F9D483;
+	text-decoration: none;
+	font-size: 18px;
+	margin: -2px;
+	border-bottom: none;
+}
+
+footer>p, footer>nav{
+	color: #D2D2D2;
+	margin-bottom: 15px;
+}
+
+footer>p{
+	margin: 5px 0px 100px 10px;
+}
+
+a:hover {
+  color: #8FA65E;
+}
+
+section *{
+	padding: 0px;
+	float: left;
+}
+
+aside{
+	width: 30%;
+	font-size: 15px;
+	display: inline-block;
+}
+
+.sidebar{
+	float: left;
+}
+.module{
+	position: left;
+}
+.module>h4{
+	font-weight: bold;
+	font-size: 15px
+}
+
+.module>p{
+	font-size: 15px;
+	line-height: 18px;
+}
+
+.module>ul{
+	text-indent: -15px;
+}
+
+.module>ul>li>a{
+	color: #F9D483;
+	font-size: 15px;
+	text-decoration: none;
+}
+.more>a{
+	color: #F9D483;
+	font-weight: bold;
+	text-decoration: none;
+	float: right;
+}
+
+.module.ad{
+	border-bottom: 1px solid #D2D2D2;
+	border-top: 1px solid #D2D2D2;;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	clear: both;
+}
+
