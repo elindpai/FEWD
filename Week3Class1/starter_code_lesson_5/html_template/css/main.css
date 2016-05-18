@@ -1,0 +1,190 @@
+/* ==========================================================================
+   Global Overrides
+  ========================================================================== */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+
+
+@import url(https://fonts.googleapis.com/css?family=Merriweather:700italic,700);
+
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:700);
+
+
+*{
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* ==========================================================================
+   Author's custom styles
+  ========================================================================== */
+
+/* Global
+   ================================================================ */
+body *{
+  font-family: 'Source Sans Pro' , sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #3C3A3A;
+  text-decoration: none;
+}
+
+h1>a{
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+}
+
+h2{
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 25px;
+  color: #080808;
+  background-color: #D4E1DB;
+  padding: 15px;
+  text-align: center;
+  margin: 0px;
+  border-top: solid .5px #BABEC0;
+}
+
+h3{
+  margin: -3px 0px 0px 0px;
+}
+
+h3>a{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+}
+
+h4>a, h4{
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: #080808;
+}
+
+.button>a{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #080808;
+  text-decoration: none;
+}
+
+a{
+  color: white;
+}
+
+.clearfix{
+  margin: 0px;
+}
+
+li{
+  margin-top: 22px;
+  margin-left: 15px;
+  margin-right: 20px
+}
+
+.middle{
+  border-left: solid 1px #E9E9E9;
+  border-right: solid 1px #E9E9E9; 
+  padding: 0px 15px 10px 15px;
+}
+
+section *{
+  padding: 0px 15px 0px 15px;
+  margin-top: 15px;
+}
+
+section{
+margin-top: 20px;
+margin-bottom: 40px;
+}
+
+article{
+  margin-bottom: 70px;
+}
+}
+
+h4{
+  margin-bottom: -10px;
+}
+
+
+/* Text Styles (a, a:hover, a:visited, a:active, p, h1, h2, h3, h4, etc.)
+   ================================================================ */
+
+/* Layout (columns, floats, etc.)
+   ================================================================ */
+h1{
+  float: left;
+}
+li{
+  float: left;
+  text-align: right;
+}
+nav{
+  float: right;
+}
+
+.image{
+  max-width: 100%;
+  height: auto;
+}
+
+article{
+  float: left;
+  width: 33%;
+}
+
+
+/* Header
+   ================================================================ */
+header{
+  background-color: #3C3A3A;
+  border-bottom: solid 5px #FEDB0D;
+  clear: both;
+}
+
+/* Footer
+   ================================================================ */
+footer{
+  clear: both;
+  background-color: #3C3A3A;
+  margin-top: 40px;
+  color: white;
+  font-size: 20px;
+  padding: 30px 10px 30px 30px;
+
+}
+
+
+/* Navigation
+   ================================================================ */
+nav{
+  margin-right: 20px;
+}
+
+/* Buttons
+   ================================================================ */
+
+   .button{
+  background-color: #D4E1DB;
+  text-align: center;
+  border-radius: 3px;
+  padding: 10px 0px 10px 0px;
+  box-shadow: 0px 3px 4px 0px rgba(177,184,180,1);
+  width: 80%;
+  position: relative;
+  left: 10%;
+}
