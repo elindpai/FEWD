@@ -106,12 +106,12 @@ textarea {
 
 @font-face{
     font-family: 'SurveyorDisplay-BookItalic-Pro';
-    src: url('SurveyorDisplay-BookItalic-Pro.otf');
+    src: url('../font/SurveyorDisplay-BookItalic-Pro.otf');
     }
 
 @font-face{
-    font-family: 'SurveyorDisplay-BlackItalic-Pro';
-    src: url('SurveyorDisplay-BlackItalic-Pro.otf');
+    font-family: 'SurveyorBoldItalic';
+    src: url('SurveyorDisplay-BoldItalic-Pro.otf');
     }
 
 @font-face{
@@ -200,36 +200,123 @@ ul.navigation{
     margin: 0;
     padding: 20px 0px 10px 0px;
 }
-ul.navigation li{
+ul.navigation li, ul.navigation li a{
     display: inline-block;
     width: auto;
+    text-transform: uppercase;
+    color: #4E4E4F;
+    padding: 0 5px 0 5px;
+}
+
+section.BannerImage{
+    padding: 0;
 }
 
 section.BannerImage img{
     width: 100%;
 }
 
-div.content{
-    margin: 0px 10% 0px 10%;
+section{
+    padding: 0 10% 0 10%;
 }
 
-h1{
-
-}
-
-section.PageTitle h2{
-    font-family: 'Gotham-XLight';
-    font-size: 16px;
+section.OnSubmit{
+    display: none;
+    background-image: url('../img/Torn_Edge-Almond.png');
+    background-size: 100%;
+    height: 220px;
+    padding: 0;
+    margin: 30px 0 0 0;
+    text-align: center;
 }
 
 div.OnSubmit{
     display: inline-block;
-    width: auto;
+    padding: 0 11% 0 11%;
+    text-align: left;
 }
 
 div#NextDelivery.OnSubmit {
     vertical-align: top;
-    padding-left: 20%;
+    padding: 0 13% 0 5%;
+}
+
+div#Schedule.OnSubmit{
+    padding: 1px 5% 0 13%;
+}
+
+/*Page Title and explanation*/
+
+.PageTitle h1, .HomeDelivery h1{
+    font-family: 'SurveyorBoldItalic';
+    color: #009bac;
+    font-size: 4rem;
+}
+
+section.PageTitle h2, p{
+    font-family: 'Gotham-XLight';
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+section.Pickup{
+    margin-top: 1%;
+    text-align: center;
+}
+
+section.Pickup p{
+    font-size: 1.25rem;
+}
+
+section.Pickup p a, li.arrow a{
+    border-bottom: 1px solid #5b5e69;
+    color: black;
+}
+
+/*input box*/
+form.InputField{
+    text-align: center;
+    margin: 3%;
+}
+
+#newEntry{
+    width: 200px;
+    font-size: 1.5rem;
+    font-family: 'Gotham-XLight';
+    padding: 1%;
+}
+
+form.InputField input[type=submit]{
+    width: 100px;
+    font-size: 1.5rem;
+    padding: 1.1%;
+    background-color: #faa819;
+    font-family: 'Gotham-XLight';    
+    color: white;
+    border: none;
+}
+
+/*submission*/
+.OnSubmit div, ul, li{
+    font-family:'Gotham-XLight'; 
+}
+
+/*Delivery Details*/
+.OnSubmit h3, .HomeDelivery h3{
+    font-family:'Gotham-XLight'; 
+    font-size: 2rem;
+}
+
+li.arrow{
+    height: 19px;
+    margin-bottom: 21px; /* not needed, just to add space between the li's */
+    background: url('../img/Vector-Smart-Object.png') no-repeat left center;
+    list-style: none; /* Get rid of the default bullet points */
+    padding-left: 50px; /* Offsets the text. Needs to be at least the width of your image */
+    line-height: 17px;
 }
 
 
