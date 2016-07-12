@@ -29,12 +29,20 @@ REFER TO YOUR CHEAT SHEETS IF YOU CAN'T REMEMBER THE DIFFERENCE
 
 /*1. Update the display property of the Part 1 list items so that they're all on the same line.
 We want to make sure that they still respect properties like padding, margin, width and height.*/
-
+#one li{
+	width: 100%;
+	display: inline;
+}
 
 
 /*2. Update the display property of the anchors in Part 2 so that each item is on its own line.*/
-
+#two a{
+	display: block;
+}
 
 
 
 /*3. Update the display property in Part 3 to hide the image of the cat.*/
+#three img{
+	display: noneB;
+}

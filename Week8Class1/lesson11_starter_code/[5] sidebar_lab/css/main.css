@@ -1,0 +1,86 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  color: #555;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1{
+  padding-top: 2.5em;
+}
+
+h2 {
+  color: rgba(0, 0, 0, 0.4);
+  transition: all 0s ease;
+  visibility: hidden;
+}
+
+a, ul{
+  visibility: hidden;
+  color: black;
+}
+
+.line {
+  width: 2.5rem;
+  height: .3125rem;
+  background: #E7E6DD;
+  transition: 0.5s;
+  border-radius: 2.5rem;
+  margin-bottom: .52em;
+  opacity: 1;
+  /* 1. Set the transition property on the .line class */
+  transition: all ease;
+}
+.SideNav{
+  background-color: none;
+  display: inline-block;
+  width: auto;
+  height: 100%;
+  margin-top: -100px;
+  z-index: -2;
+}
+
+.active .line{
+  opacity: 0;
+  }
+
+.off h2, .off ul, .off a{
+  visibility: visible;
+}
+
+.hamburger{
+  display: inline-block;
+  width: 5%;
+}
+
+.content{
+  display: inline-block;
+  width: 85%;
+}
+
+@keyframes slide-out{
+  0% {transform: translateX(0px);}
+  50% {transform: translateX(50spx);}
+  100% {transform: translateX(100px);}
+}
+
+.slider{
+  animation: slide-out 4s linear 1;
+}

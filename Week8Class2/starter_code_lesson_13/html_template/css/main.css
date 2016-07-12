@@ -1,0 +1,112 @@
+/* ==========================================================================
+   Global Overrides
+  ========================================================================== */
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* ==========================================================================
+   Author's custom styles
+  ========================================================================== */
+ul{
+	list-style: none;
+}
+
+body{
+	margin: 30px;
+}
+
+header, li, nav, section, div, footer, article{
+	border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    width: 100%;
+}
+
+article{
+	border-style: none;
+}
+
+header, section{
+	width: 100%;
+}
+
+li{
+	width: 15%;
+	height: 40px;
+	margin: 2px;
+}
+
+nav{
+	width:15%;
+	height: 40px;
+	display: inline-block;
+	margin-left: 12px;
+	margin-top: 2px;
+	margin-right: 12px;
+	float: right;
+}
+
+ul{
+	margin: 3px;
+	padding: 0;
+}
+
+
+nav>li{
+	display: block;
+	height: 6px;
+	width: 90%;
+	margin: auto;
+}
+
+section{
+	height: 500px;
+}
+
+div{
+	width: 22.72%;
+	height: 100px;
+}
+
+footer{
+	display: block;
+	text-align: center;
+}
+
+footer>ul>li{
+	width: 31%;
+	height: 100px;
+	text-align: center;
+}
+
+
+/*overwriting CSS for new layout goes here*/
+@media (max-width: 1000px){
+
+header, li, nav, section, div, footer, article{
+	margin-top: 5px;
+}
+
+header>ul>li{
+	display: none;
+}
+
+div{
+	width: 100%;
+}
+
+footer>ul>li{
+	width: 100%;
+	margin: 0;
+}
+
+}
+
+@
